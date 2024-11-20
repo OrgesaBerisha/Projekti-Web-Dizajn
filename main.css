@@ -26,12 +26,6 @@ body{
     gap: 5px;
 }
 
-.logo{
-    display:flex;
-    align-items: center;
-    gap:5px;
-}
-
 .logo img{
     width:125px;
     height: auto;
@@ -41,7 +35,7 @@ body{
     font-size: 40px;
     font-weight: 400;
     color: #070605;
-    font-family: "Meridiana", cursive;
+    font-family: "Merienda", cursive;
 }
 .nav-links{
     list-style: none;
@@ -61,3 +55,48 @@ body{
  .nav-links a:hover{
     color: #b06c6c;
  }
+/*Faqja1 Section*/
+.faqja1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #d0c9b5;
+}
+.faqja1-left{
+    flex: 1;
+    padding-right: 2rem;
+    padding-left: 10rem;
+    margin-top: -10rem;
+    max-width: 100%;
+    z-index: 1;
+}
+.faqja1-title{
+    font-family:"Merienda", cursive;
+    font-size: 80px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.faqja1-description{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #070605;
+    line-height: 1.5;
+}
+.faqja1-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.faqja1-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
